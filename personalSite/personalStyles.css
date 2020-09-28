@@ -1,0 +1,46 @@
+h1
+{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Impact;
+    text-align: center;
+}
+.secondary-pages
+{
+    font-size: 20px;
+    text-decoration: underline;
+}
+#home-nav
+{
+    font-size: 1.3em;
+}
+#home-nav a:link, #home-nav a:visited
+{
+    text-decoration: none;
+}
+#home-nav a:hover, #home-nav a:focus, #home-nav a:active
+{
+    text-decoration: underline;
+}
+p
+{
+    font-size: 15px;
+}
+.entertainment-photos img
+{
+    width: 200px;
+}
+.history-photos img
+{
+    width: 230px;
+    float: right;
+}
+.community-photos img
+{
+    width: 230px;
+}
+blockquote
+{
+    font-style: italic;
+    text-align: center;
+}
