@@ -33,7 +33,6 @@ p
 .history-photos img
 {
     width: 230px;
-    float: right;
 }
 .community-photos img
 {
@@ -43,4 +42,37 @@ blockquote
 {
     font-style: italic;
     text-align: center;
+}
+header
+{
+    padding: 5px 0px 10px;
+	background: #9109b3;
+	width: 100%;
+    min-height: 100px;
+    position: fixed;
+    z-index: 1;
+}
+#contain-left
+{
+    float: left;
+    width:25%;
+    padding-left: 40px;
+    padding-right: 15px;
+}
+#contain-right
+{
+    float: right;
+    width:25%;
+    padding-right: 125px;
+}
+#contain-middle
+{
+    float: right;
+    width:25%;
+    padding-right: 50px;
+}
+#page-content
+{
+    position: relative;
+    top: 200px;
 }
