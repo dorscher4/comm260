@@ -1,0 +1,58 @@
+#pictures img
+{
+    width: 30%;
+    height: 200px;
+    padding-left: 30px;
+}
+header {
+	padding: 5px 0px 10px;
+	background: #caa119;
+	width: 100%;
+    min-height: 100px;
+    position: fixed;
+    z-index: 1;
+}
+#page-content {
+	position: relative;
+	top: 150px;
+}
+footer{
+    clear: both;
+	padding:20px 0px;
+	position: relative;
+	top: 150px;
+}
+h1{
+    text-align: center;
+    font-size: calc(1.5 + 1.5vw);
+}
+#description p::first-letter{
+    float: left;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2em;
+    padding-right: 2px;
+}
+#breakfast-container li:first-child
+{
+    color: rgb(194, 41, 194);
+}
+#breakfast-container li:last-child
+{
+    color: rgb(32, 168, 105);
+}
+#breakfast-container li:nth-child(2)
+{
+    color: rgb(28, 72, 218);
+}
+nav a, nav a:visited {
+	text-decoration: none;
+}
+nav a:hover, nav a:focus, nav a:active {
+	text-decoration: underline;
+	color: rgb(117, 80, 10);
+}
+body{
+    font-size: calc(1em + 0.5vw);
+    line-height: calc(1.1em + 0.5vw);
+}
