@@ -1,0 +1,118 @@
+#pictures img
+{
+    width: 30%;
+    height: 200px;
+    padding-left: 30px;
+}
+header {
+	padding: 5px 0px 10px;
+	background: #caa119;
+	width: 100%;
+    min-height: 100px;
+    position: fixed;
+    z-index: 1;
+}
+#page-content {
+	position: relative;
+	top: 150px;
+}
+footer{
+    clear: both;
+	padding:20px 0px;
+	position: relative;
+	top: 150px;
+}
+h1{
+    text-align: center;
+    font-size: calc(1.5 + 1.5vw);
+}
+h2{
+    text-align: center;
+}
+#description p::first-letter{
+    float: left;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2em;
+    padding-right: 2px;
+}
+#breakfast-container li:first-child
+{
+    color: rgb(46, 4, 46);
+}
+#breakfast-container li:last-child
+{
+    color: rgb(6, 49, 29);
+}
+#breakfast-container li:nth-child(2)
+{
+    color: rgb(11, 21, 53);
+}
+#lunch-container li:first-child
+{
+    color: rgb(46, 4, 46);
+}
+#lunch-container li:last-child
+{
+    color: rgb(6, 49, 29);
+}
+#lunch-container li:nth-child(2)
+{
+    color: rgb(11, 21, 53);
+}
+#dinner-container li:first-child
+{
+    color: rgb(46, 4, 46);
+}
+#dinner-container li:last-child
+{
+    color: rgb(6, 49, 29);
+}
+#dinner-container li:nth-child(2)
+{
+    color: rgb(11, 21, 53);
+}
+nav a, nav a:visited {
+	text-decoration: none;
+}
+nav a:hover, nav a:focus, nav a:active {
+	text-decoration: underline;
+	color: rgb(117, 80, 10);
+}
+body{
+    font-size: calc(1em + 0.5vw);
+    line-height: calc(1.1em + 0.5vw);
+}
+.logo
+{
+    width: 100px;
+    float: left;
+}
+#video
+{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#breakfast-container
+{
+    background-color:#caa119;
+    width: 400px;
+}
+#lunch-container
+{
+    background-color:#caa119;
+    width: 400px;
+}
+#dinner-container
+{
+    background-color:#caa119;
+    width: 400px;
+}
