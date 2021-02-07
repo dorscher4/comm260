@@ -40,15 +40,15 @@ p
 }
 .entertainment-photos img
 {
-    width: 200px;
+    width: 80%;
 }
 .history-photos img
 {
-    width: 230px;
+    width: 80%;
 }
 .community-photos img
 {
-    width: 230px;
+    width: 80%;
 }
 blockquote
 {
@@ -99,4 +99,9 @@ nav ul a:link
 {
 	text-decoration: none;
 	color: greenyellow;
+}
+#video
+{
+    padding-left: 30%;
+    padding-right: 30%;
 }
